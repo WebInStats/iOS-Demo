@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  DemoExample
 //
-//  Created by Fatma Selin Hangişi on 22/09/2017.
+//  Created by Fatma Selin Hangişi on 09/10/2017.
 //  Copyright © 2017 Fatma Selin Hangişi. All rights reserved.
 //
 
@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     func application(_ application:UIApplication, open url:URL,sourceApplication:String?,annotation:Any)->Bool{
-        wis_object().saveTestParameters(url: url)
+        Webinstats("//wisdemo.webinstats.com/","4e84-1481","0").saveTestParameters(url: url)
         return true
     }
 

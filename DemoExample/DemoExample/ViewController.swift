@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  DemoExample
 //
-//  Created by WebInStats on 22/09/2017.
-//  Copyright © 2017 WebInStats. All rights reserved.
+//  Created by Fatma Selin Hangişi on 09/10/2017.
+//  Copyright © 2017 Fatma Selin Hangişi. All rights reserved.
 //
 
 import UIKit
@@ -13,13 +13,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-         let wiso = wis_object()
-         var map = [String:String]()
-         map["s"] = "4e84-1481"
-         map["_cburl"] = "//wisdemo.webinstats.com/"
-         map["p"] = "Home Page"
-         wiso.execute(view: self, localmap: map)
-     
+        let wiso = Webinstats("//wisdemo.webinstats.com/","4e84-1481","0")
+        var map = [String:String]()
+        map["p"] = "Home Page"
+        wiso.execute(view: self, localmap: map)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

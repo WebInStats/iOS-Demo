@@ -187,8 +187,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_MODULE_NAMESPACE_PUSH("iOS_wis")
 @class UIViewController;
 
-SWIFT_CLASS("_TtC7iOS_wis10wis_object")
-@interface wis_object : NSObject
+SWIFT_CLASS("_TtC7iOS_wis10Webinstats")
+@interface Webinstats : NSObject
+- (nonnull instancetype)init:(NSString * _Nonnull)wis_cburl :(NSString * _Nonnull)wis_s :(NSString * _Nonnull)wis_sscookie OBJC_DESIGNATED_INITIALIZER;
 - (void)add_actionWithDi:(NSString * _Nonnull)di pt:(NSString * _Nonnull)pt v:(NSString * _Nonnull)v id:(NSString * _Nonnull)id to:(NSString * _Nonnull)to lv:(NSString * _Nonnull)lv;
 - (void)add_labelWithDi:(NSString * _Nonnull)di pt:(NSString * _Nonnull)pt v:(NSString * _Nonnull)v id:(NSString * _Nonnull)id to:(NSString * _Nonnull)to lv:(NSString * _Nonnull)lv;
 - (void)executeWithView:(UIViewController * _Nonnull)view localmap:(NSDictionary<NSString *, NSString *> * _Nonnull)localmap;
@@ -199,7 +200,7 @@ SWIFT_CLASS("_TtC7iOS_wis10wis_object")
 - (void)szbidWithParameters:(NSDictionary<NSString *, id> * _Nonnull)parameters;
 - (void)trackWithParameters:(NSDictionary<NSString *, id> * _Nonnull)parameters;
 - (void)saveTestParametersWithUrl:(NSURL * _Nonnull)url;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 
 SWIFT_MODULE_NAMESPACE_POP
