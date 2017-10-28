@@ -17,7 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Webinstats("//wis.webinstats.com/","1","0").register(application, didFinishLaunchingWithOptions: launchOptions)
         return true
+    }
+    func application(_ application: UIApplication,
+                     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        let tokenParts = deviceToken.map { data -> String in
+            return String(format: "%02.2hhx", data)
+        }
+        let token = tokenParts.joined()
+        Webinstats.registerWithDeviceToken(deviceToken: token)
+        print("Device Token: \(token)")
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
