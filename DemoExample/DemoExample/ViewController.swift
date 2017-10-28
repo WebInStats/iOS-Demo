@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         let wiso = Webinstats("//wisdemo.webinstats.com/","4e84-1481","0")
         var map = [String:String]()
         map["p"] = "Home Page"
+        map["_enable_push"] = "1"
         wiso.execute(view: self, localmap: map)
         
         // Do any additional setup after loading the view, typically from a nib.
