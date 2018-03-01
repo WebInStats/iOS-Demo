@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        Webinstats("//wis.webinstats.com/","1","0").register(application, didFinishLaunchingWithOptions: launchOptions)
+        Webinstats("//wisdemo.webinstats.com/","4e84-1481","0").register(application, didFinishLaunchingWithOptions: launchOptions)
         return true
     }
     func application(_ application: UIApplication,
@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         let token = tokenParts.joined()
         Webinstats.registerWithDeviceToken(deviceToken: token)
-        print("Device Token: \(token)")
+       // print("Device Token: \(token)")
         
     }
 
