@@ -14,8 +14,8 @@
 		9B59B67A1F8BD1DE0000F5CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B59B6781F8BD1DE0000F5CE /* LaunchScreen.storyboard */; };
 		9B59B6851F8BD1DE0000F5CE /* DemoExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59B6841F8BD1DE0000F5CE /* DemoExampleTests.swift */; };
 		9B59B6901F8BD1DF0000F5CE /* DemoExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59B68F1F8BD1DF0000F5CE /* DemoExampleUITests.swift */; };
-		9B64E729210719D5000AF189 /* iOS_wis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B64E727210719D0000AF189 /* iOS_wis.framework */; };
-		9B64E72A210719D5000AF189 /* iOS_wis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B64E727210719D0000AF189 /* iOS_wis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9BA433972109C5EB007036BD /* iOS_wis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA433952109C5D1007036BD /* iOS_wis.framework */; };
+		9BA433982109C5EB007036BD /* iOS_wis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA433952109C5D1007036BD /* iOS_wis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9B64E72A210719D5000AF189 /* iOS_wis.framework in Embed Frameworks */,
+				9BA433982109C5EB007036BD /* iOS_wis.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,7 +63,7 @@
 		9B59B68B1F8BD1DE0000F5CE /* DemoExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B59B68F1F8BD1DF0000F5CE /* DemoExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoExampleUITests.swift; sourceTree = "<group>"; };
 		9B59B6911F8BD1DF0000F5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B64E727210719D0000AF189 /* iOS_wis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOS_wis.framework; sourceTree = "<group>"; };
+		9BA433952109C5D1007036BD /* iOS_wis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOS_wis.framework; sourceTree = "<group>"; };
 		9BD391B51FA47FF50040F7CA /* DemoExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoExample.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B64E729210719D5000AF189 /* iOS_wis.framework in Frameworks */,
+				9BA433972109C5EB007036BD /* iOS_wis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 		9B59B6631F8BD1DE0000F5CE = {
 			isa = PBXGroup;
 			children = (
-				9B64E727210719D0000AF189 /* iOS_wis.framework */,
+				9BA433952109C5D1007036BD /* iOS_wis.framework */,
 				9B59B66E1F8BD1DE0000F5CE /* DemoExample */,
 				9B59B6831F8BD1DE0000F5CE /* DemoExampleTests */,
 				9B59B68E1F8BD1DF0000F5CE /* DemoExampleUITests */,
