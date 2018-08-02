@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        Webinstats("//wisdemo.webinstats.com/","4e84-1481","0").register(application, didFinishLaunchingWithOptions: launchOptions)
+        Webinstats("//demoapb.webinstats.com/","4e84-1525","0").register(application, didFinishLaunchingWithOptions: launchOptions)
         return true
     }
     func application(_ application: UIApplication,
@@ -54,7 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     func application(_ application:UIApplication, open url:URL,sourceApplication:String?,annotation:Any)->Bool{
-        Webinstats("//wisdemo.webinstats.com/","4e84-1481","0").saveTestParameters(url: url)
+        Webinstats("//demoapb.webinstats.com/","1525","0").saveTestParameters(url: url)
         return true
     }
 

@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let wiso = Webinstats("//wisdemo.webinstats.com/","4e84-1481","0")
+        let wiso = Webinstats("//demoapb.webinstats.com/","1525","0")
         var map = [String:String]()
         map["p"] = "Home Page"
         map["_enable_push"] = "1"
