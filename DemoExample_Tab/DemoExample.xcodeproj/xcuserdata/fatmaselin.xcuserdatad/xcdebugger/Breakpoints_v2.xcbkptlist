@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DemoExample/AppDelegate.swift"
-            timestampString = "554913882.227348"
+            timestampString = "555333400.959411"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "57"
@@ -47,18 +47,18 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "469"
             endingLineNumber = "469"
-            landmarkName = "saveTestParameters(url:)"
-            landmarkType = "7">
+            landmarkName = "Webinstats"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "554912741.7682019"
+            timestampString = "555334265.510267"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
@@ -73,8 +73,8 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Github/iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "555082799.299405"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.510646"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "424"
@@ -86,11 +86,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Github/iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "555082799.299813"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.510874"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "446"
@@ -102,11 +102,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Github/iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "555082799.3000799"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.511094"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "475"
@@ -121,8 +121,8 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Github/iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "555082799.300338"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.5113111"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "590"
@@ -137,13 +137,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Github/iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "555082799.300594"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.511533"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "771"
             endingLineNumber = "771"
-            landmarkName = "downloadImage(url:view:link:params:function:)"
+            landmarkName = "createBanner(view:image:params:function:size:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -153,13 +153,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Github/iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "555082799.300855"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.511765"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1122"
             endingLineNumber = "1122"
-            landmarkName = "viewDidTop()"
+            landmarkName = "setClickCookie(sender:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -169,13 +169,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Github/iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "555082799.301125"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.5120029"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1147"
             endingLineNumber = "1147"
-            landmarkName = "topViewController(base:)"
+            landmarkName = "setClickCookie(sender:)"
             landmarkType = "7">
             <Locations>
                <Location
@@ -217,13 +217,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Github/iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "555082799.301378"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.5122271"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1148"
             endingLineNumber = "1148"
-            landmarkName = "topViewController(base:)"
+            landmarkName = "setClickCookie(sender:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -265,13 +265,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Github/iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "555082799.3016959"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.512485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "780"
             endingLineNumber = "780"
-            landmarkName = "downloadImage(url:view:link:params:function:)"
+            landmarkName = "createBanner(view:image:params:function:size:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -300,9 +300,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "723"
-            endingLineNumber = "723"
-            landmarkName = "removeView(parent:)"
-            landmarkType = "7">
+            endingLineNumber = "723">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -316,9 +314,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "724"
-            endingLineNumber = "724"
-            landmarkName = "removeView(parent:)"
-            landmarkType = "7">
+            endingLineNumber = "724">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -327,13 +323,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Github/iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "555082799.3021179"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.512747"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1143"
             endingLineNumber = "1143"
-            landmarkName = "topViewController(base:)"
+            landmarkName = "setClickCookie(sender:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -343,13 +339,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Github/iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "555082799.302374"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.512977"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1149"
             endingLineNumber = "1149"
-            landmarkName = "topViewController(base:)"
+            landmarkName = "setClickCookie(sender:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -359,13 +355,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Github/iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "555082799.302623"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.513203"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1135"
             endingLineNumber = "1135"
-            landmarkName = "isChild(selected:window:)"
+            landmarkName = "setClickCookie(sender:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -375,8 +371,8 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Github/iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "555082799.302879"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.5134259"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
@@ -469,13 +465,45 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Github/iossdk/iOS_wis/iOS_wis/popUpController.swift"
-            timestampString = "555082799.303177"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.513662"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "736"
             endingLineNumber = "736"
             landmarkName = "createBanner(view:image:params:function:size:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemoExample/ViewController.swift"
+            timestampString = "555333391.837554"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../iossdk/iOS_wis/iOS_wis/popUpController.swift"
+            timestampString = "555334265.513896"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1182"
+            endingLineNumber = "1182"
+            landmarkName = "viewDidTop()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
