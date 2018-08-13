@@ -54,7 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     func application(_ application:UIApplication, open url:URL,sourceApplication:String?,annotation:Any)->Bool{
-        Webinstats("//demoapb.webinstats.com/","1525","0").saveTestParameters(url: url)
+        Webinstats("//demoapb.webinstats.com/","xyz-1525","0").saveTestParameters(url: url)
         return true
     }
 

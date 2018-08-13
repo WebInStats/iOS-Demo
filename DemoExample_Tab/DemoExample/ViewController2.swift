@@ -17,7 +17,7 @@ class ViewController2: UIViewController {
         // Do any additional setup after loading the view.
     }
     override func viewDidAppear(_ animated: Bool) {
-        let wiso = Webinstats("//demoapb.webinstats.com/","1525","0")
+        let wiso = Webinstats("//demoapb.webinstats.com/","xyz-1525","0")
         var map = [String:String]()
         map["p"] = "Home Page2"
         map["_enable_push"] = "1"
