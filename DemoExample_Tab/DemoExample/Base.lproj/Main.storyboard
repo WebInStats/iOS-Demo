@@ -46,11 +46,14 @@
                         <viewControllerLayoutGuide type="top" id="98j-x0-NaP"/>
                         <viewControllerLayoutGuide type="bottom" id="JHn-x7-XvN"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="1Gq-sR-apZ">
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="fAh-lQ-kyG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.52847262853677002" green="0.76087522592652679" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.76994174777291835" green="1" blue="0.90162523906233594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </scrollView>
+                    <connections>
+                        <outlet property="scroll" destination="fAh-lQ-kyG" id="QJh-hQ-0TY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C8p-eu-TLG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

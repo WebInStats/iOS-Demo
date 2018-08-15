@@ -11,8 +11,10 @@ import iOS_wis
 
 class NavViewController: UIViewController {
 
+    @IBOutlet var scroll: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        scroll.contentSize.height = 1000
         // Do any additional setup after loading the view.
     }
     override func viewDidAppear(_ animated: Bool) {
