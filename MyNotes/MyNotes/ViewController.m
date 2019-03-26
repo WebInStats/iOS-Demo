@@ -27,11 +27,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    Webinstats* wiso = [[Webinstats alloc] init:@"//wis.webinstats.com/" :@"1549" :@"0"];
+    Webinstats* wiso = [[Webinstats alloc] init:@"//wis.webinstats.com/" :@"1" :@"0"];
     NSMutableDictionary *map = [[NSMutableDictionary alloc] init];
     [map setObject:@"Other" forKey:@"p"];
-    [map setObject:@"ntf" forKey:@"wistest"];
+    [map setObject:@"event" forKey:@"wistest"];
     [wiso executeWithView:self localmap:map];
+    [wiso createEventWithEventname:@"Selin"];
     //When the view loads - make sure to set to YES so that it will fetch from persistent data.
     [self setNeedToFetchNotes:YES];
 }

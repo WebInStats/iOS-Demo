@@ -200,6 +200,8 @@ SWIFT_AVAILABILITY(ios_app_extension,introduced=10.0) SWIFT_AVAILABILITY(ios,int
 SWIFT_CLASS("_TtC7iOS_wis10Webinstats")
 @interface Webinstats : NSObject <UIApplicationDelegate>
 - (nonnull instancetype)init:(NSString * _Nonnull)wis_cburl :(NSString * _Nonnull)wis_s :(NSString * _Nonnull)wis_sscookie OBJC_DESIGNATED_INITIALIZER;
+- (void)setAllowedFunctionWithAllowed_functions:(NSDictionary<NSString *, id> * _Nonnull)allowed_functions;
+- (BOOL)checkAllowedFunctionWithClassname:(NSString * _Nonnull)classname functionname:(NSString * _Nonnull)functionname SWIFT_WARN_UNUSED_RESULT;
 - (void)add_actionWithDi:(NSString * _Nonnull)di pt:(NSString * _Nonnull)pt v:(NSString * _Nonnull)v id:(NSString * _Nonnull)id to:(NSString * _Nonnull)to lv:(NSString * _Nonnull)lv;
 - (void)add_labelWithDi:(NSString * _Nonnull)di pt:(NSString * _Nonnull)pt v:(NSString * _Nonnull)v id:(NSString * _Nonnull)id to:(NSString * _Nonnull)to lv:(NSString * _Nonnull)lv;
 - (void)executeWithView:(UIViewController * _Nonnull)view localmap:(NSDictionary<NSString *, NSString *> * _Nonnull)localmap;
@@ -214,7 +216,7 @@ SWIFT_CLASS("_TtC7iOS_wis10Webinstats")
 - (void)register:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
 - (void)didReceiveNotification:(UIApplication * _Nonnull)application didReceiveRemoteNotification:(NSDictionary * _Nonnull)userInfo;
 + (void)registerWithDeviceTokenWithDeviceToken:(NSString * _Nonnull)deviceToken;
-+ (UNMutableNotificationContent * _Nonnull)didReceiveNotificationExtension:(UNNotificationRequest * _Nonnull)request :(UNMutableNotificationContent * _Nonnull)content SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=10.0);
+- (UNMutableNotificationContent * _Nonnull)didReceiveNotificationExtension:(UNNotificationRequest * _Nonnull)request :(UNMutableNotificationContent * _Nonnull)content SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=10.0);
 - (void)createEventWithEventname:(NSString * _Nonnull)eventname;
 + (void)setPayloadLinkWithLink:(NSString * _Nonnull)link;
 + (void)disable_push;

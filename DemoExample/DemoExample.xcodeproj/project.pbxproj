@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B27876421134E6200705B9A /* iOS_wis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B27876221134E5D00705B9A /* iOS_wis.framework */; };
-		9B27876521134E6200705B9A /* iOS_wis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B27876221134E5D00705B9A /* iOS_wis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9B23707221F73DE9000DDC59 /* iOS_wis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B23707021F73DDD000DDC59 /* iOS_wis.framework */; };
+		9B23707321F73DE9000DDC59 /* iOS_wis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B23707021F73DDD000DDC59 /* iOS_wis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9B35410C21134F6500422D11 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35410B21134F6500422D11 /* ViewController2.swift */; };
 		9B59B6701F8BD1DE0000F5CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59B66F1F8BD1DE0000F5CE /* AppDelegate.swift */; };
 		9B59B6721F8BD1DE0000F5CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59B6711F8BD1DE0000F5CE /* ViewController.swift */; };
@@ -43,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9B27876521134E6200705B9A /* iOS_wis.framework in Embed Frameworks */,
+				9B23707321F73DE9000DDC59 /* iOS_wis.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9B27876221134E5D00705B9A /* iOS_wis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOS_wis.framework; sourceTree = "<group>"; };
+		9B23707021F73DDD000DDC59 /* iOS_wis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOS_wis.framework; sourceTree = "<group>"; };
 		9B35410B21134F6500422D11 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		9B59B66C1F8BD1DE0000F5CE /* DemoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B59B66F1F8BD1DE0000F5CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B27876421134E6200705B9A /* iOS_wis.framework in Frameworks */,
+				9B23707221F73DE9000DDC59 /* iOS_wis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 		9B59B6631F8BD1DE0000F5CE = {
 			isa = PBXGroup;
 			children = (
-				9B27876221134E5D00705B9A /* iOS_wis.framework */,
+				9B23707021F73DDD000DDC59 /* iOS_wis.framework */,
 				9B59B66E1F8BD1DE0000F5CE /* DemoExample */,
 				9B59B6831F8BD1DE0000F5CE /* DemoExampleTests */,
 				9B59B68E1F8BD1DF0000F5CE /* DemoExampleUITests */,

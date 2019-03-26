@@ -22,7 +22,7 @@
     self.contentHandler = contentHandler;
     self.bestAttemptContent = [request.content mutableCopy];
     if(_bestAttemptContent){
-        contentHandler([Webinstats didReceiveNotificationExtension:request :_bestAttemptContent]);
+       // contentHandler([Webinstats didReceiveNotificationExtension:request :_bestAttemptContent]);
     }
     
     // Modify the notification content here...
