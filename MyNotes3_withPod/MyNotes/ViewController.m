@@ -26,6 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
     Webinstats* wiso = [[Webinstats alloc] init:@"//_YOUR_DOMAIN_.webinstats.com/" :@"YOUR_COMPANY_ID" :@"0"];
     NSMutableDictionary *map = [[NSMutableDictionary alloc] init];

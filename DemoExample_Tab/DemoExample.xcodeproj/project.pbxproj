@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B04F754212470AB0047D344 /* iOS_wis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B04F752212470A60047D344 /* iOS_wis.framework */; };
-		9B04F755212470AB0047D344 /* iOS_wis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B04F752212470A60047D344 /* iOS_wis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9B35410C21134F6500422D11 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35410B21134F6500422D11 /* ViewController2.swift */; };
 		9B59B6701F8BD1DE0000F5CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59B66F1F8BD1DE0000F5CE /* AppDelegate.swift */; };
 		9B59B6721F8BD1DE0000F5CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59B6711F8BD1DE0000F5CE /* ViewController.swift */; };
@@ -18,6 +16,8 @@
 		9B59B6851F8BD1DE0000F5CE /* DemoExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59B6841F8BD1DE0000F5CE /* DemoExampleTests.swift */; };
 		9B59B6901F8BD1DF0000F5CE /* DemoExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59B68F1F8BD1DF0000F5CE /* DemoExampleUITests.swift */; };
 		9B95BCA82113AB670008EFCC /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95BCA72113AB670008EFCC /* NavViewController.swift */; };
+		9BB471F222F1977800944570 /* iOS_wis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB471F022F1974700944570 /* iOS_wis.framework */; };
+		9BB471F322F1977800944570 /* iOS_wis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB471F022F1974700944570 /* iOS_wis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9B04F755212470AB0047D344 /* iOS_wis.framework in Embed Frameworks */,
+				9BB471F322F1977800944570 /* iOS_wis.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +52,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9B04F752212470A60047D344 /* iOS_wis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOS_wis.framework; sourceTree = "<group>"; };
 		9B35410B21134F6500422D11 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		9B59B66C1F8BD1DE0000F5CE /* DemoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B59B66F1F8BD1DE0000F5CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 		9B59B68F1F8BD1DF0000F5CE /* DemoExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoExampleUITests.swift; sourceTree = "<group>"; };
 		9B59B6911F8BD1DF0000F5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B95BCA72113AB670008EFCC /* NavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
+		9BB471F022F1974700944570 /* iOS_wis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOS_wis.framework; sourceTree = "<group>"; };
 		9BD391B51FA47FF50040F7CA /* DemoExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoExample.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B04F754212470AB0047D344 /* iOS_wis.framework in Frameworks */,
+				9BB471F222F1977800944570 /* iOS_wis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +100,7 @@
 		9B59B6631F8BD1DE0000F5CE = {
 			isa = PBXGroup;
 			children = (
-				9B04F752212470A60047D344 /* iOS_wis.framework */,
+				9BB471F022F1974700944570 /* iOS_wis.framework */,
 				9B59B66E1F8BD1DE0000F5CE /* DemoExample */,
 				9B59B6831F8BD1DE0000F5CE /* DemoExampleTests */,
 				9B59B68E1F8BD1DF0000F5CE /* DemoExampleUITests */,

@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@import iOS_wis;
 
 @interface ViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic, weak) NSManagedObjectContext *notesManagedObjectContext;
+
 
 @end
 
