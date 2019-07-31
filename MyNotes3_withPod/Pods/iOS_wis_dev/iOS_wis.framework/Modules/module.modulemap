@@ -1,0 +1,11 @@
+framework module iOS_wis {
+  umbrella header "iOS_wis.h"
+
+  export *
+  module * { export * }
+}
+
+module iOS_wis.Swift {
+    header "iOS_wis-Swift.h"
+    requires objc
+}
