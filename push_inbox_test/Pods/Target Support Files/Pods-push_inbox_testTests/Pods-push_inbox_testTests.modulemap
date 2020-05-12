@@ -1,0 +1,6 @@
+framework module Pods_push_inbox_testTests {
+  umbrella header "Pods-push_inbox_testTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
