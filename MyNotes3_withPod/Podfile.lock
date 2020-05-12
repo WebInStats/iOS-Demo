@@ -1,16 +1,16 @@
 PODS:
-  - iOS_wis_dev (1.51.4)
+  - iOS_wis (2.0.15.2)
 
 DEPENDENCIES:
-  - iOS_wis_dev
+  - iOS_wis (= 2.0.15.2)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - iOS_wis_dev
+  trunk:
+    - iOS_wis
 
 SPEC CHECKSUMS:
-  iOS_wis_dev: 11431e1a7a9359fbf6b478bdce6a0003fa929819
+  iOS_wis: cba075433eb89ea48f4901e2d1cbd5b34e47abe9
 
-PODFILE CHECKSUM: 8790ac3a4c699e9a8fd3fe0010a37a003788bdaf
+PODFILE CHECKSUM: 0c448d06cf2d80882ae80e3059ff3dc9a78a3aff
 
-COCOAPODS: 1.7.0
+COCOAPODS: 1.8.4

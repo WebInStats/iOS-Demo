@@ -219,7 +219,7 @@
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>iOS_wis_dev</string>
+			<string>iOS_wis</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

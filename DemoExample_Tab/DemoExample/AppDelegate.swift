@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return String(format: "%02.2hhx", data)
         }
         let token = tokenParts.joined()
-        Webinstats.registerWithDeviceToken(deviceToken: token)
+        Webinstats.registerWithDeviceToken(deviceToken: deviceToken)
        // print("Device Token: \(token)")
         
     }

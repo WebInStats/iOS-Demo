@@ -10,7 +10,6 @@
 #import "ViewController.h"
 #import "NoteViewController.h"
 @import iOS_wis;
-
 @interface AppDelegate ()
 
 @property (nonatomic, strong) NSPersistentContainer *persistentContainer;
@@ -39,7 +38,7 @@
     self.managedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
     
     NSManagedObjectModel *managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:self.modelURL];
-    [[[Webinstats alloc] init:@"//_YOUR_DOMAIN_.webinstats.com/" :@"YOUR_COMPANY_ID" :@"0"] register:application didFinishLaunchingWithOptions:launchOptions];
+    [[[Webinstats alloc] init:@"//wis.webinstats.com/" :@"1549" :@"0"] register:application didFinishLaunchingWithOptions:launchOptions];
     self.managedObjectContext.persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:managedObjectModel];
     
     NSError* error;
@@ -62,18 +61,18 @@
 }
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
     
-    [[[Webinstats alloc] init:@"//_YOUR_DOMAIN_.webinstats.com/" :@"YOUR_COMPANY_ID" :@"0"] didReceiveNotification:application didReceiveRemoteNotification:userInfo];
+    [[[Webinstats alloc] init:@"//wis.webinstats.com/" :@"1549" :@"0"] didReceiveNotification:application didReceiveRemoteNotification:userInfo];
 }
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken{
-    NSString * deviceTokenString = [[[[deviceToken description]
-                                      stringByReplacingOccurrencesOfString: @"<" withString: @""]
-                                     stringByReplacingOccurrencesOfString: @">" withString: @""]
-                                    stringByReplacingOccurrencesOfString: @" " withString: @""];
-    NSLog(@"token : %@",deviceTokenString);
-    [Webinstats registerWithDeviceTokenWithDeviceToken:deviceTokenString];
+
+    NSLog(@"token : %@",deviceToken);
+    [Webinstats registerWithDeviceTokenWithDeviceToken:deviceToken];
+}
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error{
+    NSLog(@"fail : %@",error);
 }
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
-    [[[Webinstats alloc] init:@"//_YOUR_DOMAIN_.webinstats.com/" :@"YOUR_COMPANY_ID" :@"0"] saveTestParametersWithUrl:url];
+    [[[Webinstats alloc] init:@"//wis.webinstats.com/" :@"1549" :@"0"] saveTestParametersWithUrl:url];
     return YES;
 }
 

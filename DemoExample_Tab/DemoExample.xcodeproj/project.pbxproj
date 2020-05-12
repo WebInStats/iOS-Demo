@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B0EA64824000001007045C1 /* iOS_wis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0EA64523FFFFFD007045C1 /* iOS_wis.framework */; };
+		9B0EA64924000001007045C1 /* iOS_wis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0EA64523FFFFFD007045C1 /* iOS_wis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9B35410C21134F6500422D11 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35410B21134F6500422D11 /* ViewController2.swift */; };
 		9B59B6701F8BD1DE0000F5CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59B66F1F8BD1DE0000F5CE /* AppDelegate.swift */; };
 		9B59B6721F8BD1DE0000F5CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59B6711F8BD1DE0000F5CE /* ViewController.swift */; };
@@ -16,11 +18,37 @@
 		9B59B6851F8BD1DE0000F5CE /* DemoExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59B6841F8BD1DE0000F5CE /* DemoExampleTests.swift */; };
 		9B59B6901F8BD1DF0000F5CE /* DemoExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59B68F1F8BD1DF0000F5CE /* DemoExampleUITests.swift */; };
 		9B95BCA82113AB670008EFCC /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95BCA72113AB670008EFCC /* NavViewController.swift */; };
-		9BB471F222F1977800944570 /* iOS_wis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB471F022F1974700944570 /* iOS_wis.framework */; };
-		9BB471F322F1977800944570 /* iOS_wis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB471F022F1974700944570 /* iOS_wis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9B0EA63823FFFF9E007045C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0EA63223FFFF9E007045C1 /* iOS_wis.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9BE660341F1DF92A0065CE69;
+			remoteInfo = iOS_wis;
+		};
+		9B0EA63A23FFFF9E007045C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0EA63223FFFF9E007045C1 /* iOS_wis.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9BE6603D1F1DF92A0065CE69;
+			remoteInfo = iOS_wisTests;
+		};
+		9B0EA64423FFFFFD007045C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0EA63E23FFFFFD007045C1 /* iOS_wis.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9BE660341F1DF92A0065CE69;
+			remoteInfo = iOS_wis;
+		};
+		9B0EA64623FFFFFD007045C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0EA63E23FFFFFD007045C1 /* iOS_wis.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9BE6603D1F1DF92A0065CE69;
+			remoteInfo = iOS_wisTests;
+		};
 		9B59B6811F8BD1DE0000F5CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9B59B6641F8BD1DE0000F5CE /* Project object */;
@@ -38,13 +66,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9B95BCC02113C7900008EFCC /* Embed Frameworks */ = {
+		9B0EA64A24000001007045C1 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9BB471F322F1977800944570 /* iOS_wis.framework in Embed Frameworks */,
+				9B0EA64924000001007045C1 /* iOS_wis.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +80,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B0EA63223FFFF9E007045C1 /* iOS_wis.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iOS_wis.xcodeproj; path = iOS_wis/iOS_wis.xcodeproj; sourceTree = "<group>"; };
+		9B0EA63E23FFFFFD007045C1 /* iOS_wis.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iOS_wis.xcodeproj; path = ../../iossdk/iOS_wis/iOS_wis.xcodeproj; sourceTree = "<group>"; };
 		9B35410B21134F6500422D11 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		9B59B66C1F8BD1DE0000F5CE /* DemoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B59B66F1F8BD1DE0000F5CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +97,6 @@
 		9B59B68F1F8BD1DF0000F5CE /* DemoExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoExampleUITests.swift; sourceTree = "<group>"; };
 		9B59B6911F8BD1DF0000F5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B95BCA72113AB670008EFCC /* NavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
-		9BB471F022F1974700944570 /* iOS_wis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOS_wis.framework; sourceTree = "<group>"; };
 		9BD391B51FA47FF50040F7CA /* DemoExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoExample.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BB471F222F1977800944570 /* iOS_wis.framework in Frameworks */,
+				9B0EA64824000001007045C1 /* iOS_wis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,14 +126,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B0EA63123FFFF9E007045C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B0EA63223FFFF9E007045C1 /* iOS_wis.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B0EA63323FFFF9E007045C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B0EA63923FFFF9E007045C1 /* iOS_wis.framework */,
+				9B0EA63B23FFFF9E007045C1 /* iOS_wisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B0EA63F23FFFFFD007045C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B0EA64523FFFFFD007045C1 /* iOS_wis.framework */,
+				9B0EA64723FFFFFD007045C1 /* iOS_wisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9B59B6631F8BD1DE0000F5CE = {
 			isa = PBXGroup;
 			children = (
-				9BB471F022F1974700944570 /* iOS_wis.framework */,
+				9B0EA63E23FFFFFD007045C1 /* iOS_wis.xcodeproj */,
 				9B59B66E1F8BD1DE0000F5CE /* DemoExample */,
 				9B59B6831F8BD1DE0000F5CE /* DemoExampleTests */,
 				9B59B68E1F8BD1DF0000F5CE /* DemoExampleUITests */,
 				9B59B66D1F8BD1DE0000F5CE /* Products */,
+				9B0EA63123FFFF9E007045C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,7 +218,7 @@
 				9B59B6681F8BD1DE0000F5CE /* Sources */,
 				9B59B6691F8BD1DE0000F5CE /* Frameworks */,
 				9B59B66A1F8BD1DE0000F5CE /* Resources */,
-				9B95BCC02113C7900008EFCC /* Embed Frameworks */,
+				9B0EA64A24000001007045C1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +310,16 @@
 			mainGroup = 9B59B6631F8BD1DE0000F5CE;
 			productRefGroup = 9B59B66D1F8BD1DE0000F5CE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9B0EA63F23FFFFFD007045C1 /* Products */;
+					ProjectRef = 9B0EA63E23FFFFFD007045C1 /* iOS_wis.xcodeproj */;
+				},
+				{
+					ProductGroup = 9B0EA63323FFFF9E007045C1 /* Products */;
+					ProjectRef = 9B0EA63223FFFF9E007045C1 /* iOS_wis.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9B59B66B1F8BD1DE0000F5CE /* DemoExample */,
@@ -262,6 +328,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9B0EA63923FFFF9E007045C1 /* iOS_wis.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = iOS_wis.framework;
+			remoteRef = 9B0EA63823FFFF9E007045C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B0EA63B23FFFF9E007045C1 /* iOS_wisTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = iOS_wisTests.xctest;
+			remoteRef = 9B0EA63A23FFFF9E007045C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B0EA64523FFFFFD007045C1 /* iOS_wis.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = iOS_wis.framework;
+			remoteRef = 9B0EA64423FFFFFD007045C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B0EA64723FFFFFD007045C1 /* iOS_wisTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = iOS_wisTests.xctest;
+			remoteRef = 9B0EA64623FFFFFD007045C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9B59B66A1F8BD1DE0000F5CE /* Resources */ = {
@@ -463,7 +560,6 @@
 		9B59B6951F8BD1DF0000F5CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DemoExample/DemoExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -485,7 +581,6 @@
 		9B59B6961F8BD1DF0000F5CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DemoExample/DemoExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;

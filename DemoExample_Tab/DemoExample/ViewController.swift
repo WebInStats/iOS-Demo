@@ -16,11 +16,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     override func viewDidAppear(_ animated: Bool) {
-        let wiso = Webinstats("//demoapb.webinstats.com/","xyz-1525","0")
+        let wiso = Webinstats("//demoapb.webinstats.com/","1","0")
         var map = [String:String]()
         map["p"] = "Home Page1"
         map["_enable_push"] = "1"
+        map["wistest"]="img"
         wiso.execute(view: self, localmap: map)
+        
     }
 
     override func didReceiveMemoryWarning() {

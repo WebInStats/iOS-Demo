@@ -10,7 +10,6 @@
 #import "Note.h"
 #import "NoteViewController.h"
 #import "Settings.h"
-
 @import iOS_wis;
 
 @interface ViewController ()
@@ -27,13 +26,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    Webinstats* wiso = [[Webinstats alloc] init:@"//_YOUR_DOMAIN_.webinstats.com/" :@"YOUR_COMPANY_ID" :@"0"];
+    Webinstats* wiso = [[Webinstats alloc] init:@"//wis.webinstats.com/" :@"1549" :@"0"];
     NSMutableDictionary *map = [[NSMutableDictionary alloc] init];
     [map setObject:@"Other" forKey:@"p"];
     [map setObject:@"util" forKey:@"wistest"];
+    [map setObject:@"1" forKey:@"_enable_push"];
     [wiso executeWithView:self localmap:map];
+    
     //When the view loads - make sure to set to YES so that it will fetch from persistent data.
     [self setNeedToFetchNotes:YES];
+    [self showInlineBanner:map];
+    
 }
 - (void) showInlineBanner:(NSMutableDictionary*)dictionary{
     NSLog(@"xxcfdvfgbhtnjygnhbgvdcs");

@@ -10,7 +10,6 @@
 #import "Note.h"
 #import "ColorViewController.h"
 @import iOS_wis;
-
 @interface NoteViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *titleField;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
@@ -22,7 +21,7 @@
 - (void)viewDidLoad {
     //Always call super before anything else
     [super viewDidLoad];
-    Webinstats* wiso = [[Webinstats alloc] init:@"//_YOUR_DOMAIN_.webinstats.com/" :@"YOUR_COMPANY_ID" :@"0"];
+    Webinstats* wiso = [[Webinstats alloc] init:@"//wis.webinstats.com/" :@"1549" :@"0"];
     NSMutableDictionary *map = [[NSMutableDictionary alloc] init];
     [map setObject:@"Other" forKey:@"p"];
     //  [map setObject:@"swlpop" forKey:@"wistest"];

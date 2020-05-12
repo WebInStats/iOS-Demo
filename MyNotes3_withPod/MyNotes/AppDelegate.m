@@ -40,7 +40,11 @@
     
     NSManagedObjectModel *managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:self.modelURL];
     
-    [[[Webinstats alloc] init:@"//_YOUR_DOMAIN_.webinstats.com/" :@"YOUR_COMPANY_ID" :@"0"] register:application didFinishLaunchingWithOptions:launchOptions];
+    [[[Webinstats alloc] init:@"//wis.webinstats.com/" :@"1549" :@"0"] register:application didFinishLaunchingWithOptions:launchOptions];
+    [[[Webinstats alloc] init:@"//wis.webinstats.com/" :@"1549" :@"0"] pushClickCallbackWithCallback:^(NSDictionary* dictionary){
+        NSLog(@"Push Id : %@",[dictionary objectForKey:@"zbid"]);
+    }];
+    
     self.managedObjectContext.persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:managedObjectModel];
     
     NSError* error;
@@ -61,9 +65,12 @@
     
     return YES;
 }
+- (void)somethingcalled:(NSDictionary*)dictionary{
+    NSLog(@"xxcfdvfgbhtnjygnhbgvdcs");
+}
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
     //Webinstats("//wis.webinstats.com/","1","0").didReceiveNotification(application, didReceiveRemoteNotification: userInfo)
-    [[[Webinstats alloc] init:@"//_YOUR_DOMAIN_.webinstats.com/" :@"YOUR_COMPANY_ID" :@"0"] didReceiveNotification:application didReceiveRemoteNotification:userInfo];
+    [[[Webinstats alloc] init:@"//wis.webinstats.com/" :@"1549" :@"0"] didReceiveNotification:application didReceiveRemoteNotification:userInfo];
 }
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken{
     NSString * deviceTokenString = [[[[deviceToken description]
@@ -71,10 +78,10 @@
                                      stringByReplacingOccurrencesOfString: @">" withString: @""]
                                     stringByReplacingOccurrencesOfString: @" " withString: @""];
     NSLog(@"token : %@",deviceTokenString);
-    [Webinstats registerWithDeviceTokenWithDeviceToken:deviceTokenString];
+    [Webinstats registerWithDeviceTokenWithDeviceToken:deviceToken];
 }
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
-    [[[Webinstats alloc] init:@"//_YOUR_DOMAIN_.webinstats.com/" :@"YOUR_COMPANY_ID" :@"0"] saveTestParametersWithUrl:url];
+    [[[Webinstats alloc] init:@"//wis.webinstats.com/" :@"1549" :@"0"] saveTestParametersWithUrl:url];
     return YES;
 }
 

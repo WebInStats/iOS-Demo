@@ -7,7 +7,7 @@
 //
 
 #import "NotificationService.h"
-//@import iOS_wis;
+@import iOS_wis;
 
 @interface NotificationService ()
 
@@ -22,7 +22,7 @@
     self.contentHandler = contentHandler;
     self.bestAttemptContent = [request.content mutableCopy];
     if(_bestAttemptContent){
-      //  contentHandler([Webinstats didReceiveNotificationExtension:request :_bestAttemptContent]);
+        contentHandler([[[Webinstats alloc] init:@"//wis.webinstats.com/" :@"1549" :@"0"] didReceiveNotificationExtension:request :_bestAttemptContent]);
     }
     
     // Modify the notification content here...

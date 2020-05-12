@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## iOS_wis_dev
+## iOS_wis
 
                                  Apache License
                            Version 2.0, January 2004

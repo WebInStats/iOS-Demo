@@ -4,7 +4,7 @@
 target 'MyNotes' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'iOS_wis_dev'
+  pod 'iOS_wis','1.51.90'
   # Pods for MyNotes
 
   target 'MyNotesTests' do
@@ -22,7 +22,7 @@ end
 target 'NotificationServiceExtension' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  pod 'iOS_wis','1.51.90'
   # Pods for NotificationServiceExtension
 
 end

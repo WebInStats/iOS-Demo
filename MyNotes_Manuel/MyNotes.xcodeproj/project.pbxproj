@@ -23,11 +23,11 @@
 		2CCA79D421757F4F0038486B /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA79D321757F4F0038486B /* NoteViewController.m */; };
 		2CD559F121863E460075A7D1 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD559F021863E460075A7D1 /* ColorViewController.m */; };
 		2CD991A42187E0BA00DECE55 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD991A32187E0BA00DECE55 /* Settings.m */; };
+		9B0E6C682362E83C00A4689D /* iOS_wis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0E6C662362E83900A4689D /* iOS_wis.framework */; };
+		9B0E6C692362E83C00A4689D /* iOS_wis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0E6C662362E83900A4689D /* iOS_wis.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9B19641C21D48B5600AEAB3B /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B19641B21D48B5600AEAB3B /* NotificationService.m */; };
 		9B19642021D48B5600AEAB3B /* NotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9B19641821D48B5600AEAB3B /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9BC7BA3C22F1C7EA009D543E /* iOS_wis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC7BA3A22F1C7EA009D543E /* iOS_wis.framework */; };
-		9BC7BA3D22F1C7F0009D543E /* iOS_wis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC7BA3A22F1C7EA009D543E /* iOS_wis.framework */; };
-		9BC7BA3E22F1C7F0009D543E /* iOS_wis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC7BA3A22F1C7EA009D543E /* iOS_wis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9B276549233F92AA0038CA61 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B276548233F92AA0038CA61 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +61,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9BC7BA3E22F1C7F0009D543E /* iOS_wis.framework in Embed Frameworks */,
+				9B0E6C692362E83C00A4689D /* iOS_wis.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +75,16 @@
 				9B19642021D48B5600AEAB3B /* NotificationServiceExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B276547233F91450038CA61 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -108,12 +118,13 @@
 		2CD559F021863E460075A7D1 /* ColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
 		2CD991A22187E0BA00DECE55 /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
 		2CD991A32187E0BA00DECE55 /* Settings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		9B0E6C662362E83900A4689D /* iOS_wis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOS_wis.framework; sourceTree = "<group>"; };
 		9B19640221D43F6B00AEAB3B /* MyNotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNotes.entitlements; sourceTree = "<group>"; };
 		9B19641821D48B5600AEAB3B /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B19641A21D48B5600AEAB3B /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
 		9B19641B21D48B5600AEAB3B /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
 		9B19641D21D48B5600AEAB3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BC7BA3A22F1C7EA009D543E /* iOS_wis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOS_wis.framework; sourceTree = "<group>"; };
+		9B276548233F92AA0038CA61 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC7BA3D22F1C7F0009D543E /* iOS_wis.framework in Frameworks */,
+				9B0E6C682362E83C00A4689D /* iOS_wis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +154,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC7BA3C22F1C7EA009D543E /* iOS_wis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +163,8 @@
 		2CCA7988217574CF0038486B = {
 			isa = PBXGroup;
 			children = (
-				9BC7BA3A22F1C7EA009D543E /* iOS_wis.framework */,
+				9B0E6C662362E83900A4689D /* iOS_wis.framework */,
+				9B276548233F92AA0038CA61 /* Default-568h@2x.png */,
 				2CCA7993217574CF0038486B /* MyNotes */,
 				2CCA79AF217574D00038486B /* MyNotesTests */,
 				2CCA79BA217574D00038486B /* MyNotesUITests */,
@@ -304,6 +315,7 @@
 				9B19641421D48B5600AEAB3B /* Sources */,
 				9B19641521D48B5600AEAB3B /* Frameworks */,
 				9B19641621D48B5600AEAB3B /* Resources */,
+				9B276547233F91450038CA61 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -379,6 +391,7 @@
 				2C79ACAA2178D1D9005EABE6 /* add_icon.png in Resources */,
 				2CCA79A1217574D00038486B /* Assets.xcassets in Resources */,
 				2C79ACA92178D1D9005EABE6 /* colorButton.png in Resources */,
+				9B276549233F92AA0038CA61 /* Default-568h@2x.png in Resources */,
 				2CCA799C217574D00038486B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,9 +614,9 @@
 		2CCA79C1217574D00038486B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MyNotes/MyNotes.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9RZ6QMW6X;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -618,6 +631,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mynotes.june;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -625,9 +639,9 @@
 		2CCA79C2217574D00038486B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MyNotes/MyNotes.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9RZ6QMW6X;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -642,6 +656,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mynotes.june;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

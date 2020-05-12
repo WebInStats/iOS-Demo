@@ -7,7 +7,6 @@
 //
 
 #import "NotificationService.h"
-@import iOS_wis;
 
 @interface NotificationService ()
 

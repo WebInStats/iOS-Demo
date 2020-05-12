@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/iOS_wis-Swift.h</key>
 		<data>
-		oVUqnzUSTk31vA0UuqRRu+70JfU=
+		QYx2FyUHJAYDYso69AlvxSusAU4=
 		</data>
 		<key>Headers/iOS_wis.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XJiO5C8NdbFTfTkUtdBwJwm2WTg=
+		k+d5l9bj/UJivzXBEwip5VoQav0=
 		</data>
 		<key>Modules/iOS_wis.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/iOS_wis.swiftmodule/arm.swiftmodule</key>
 		<data>
-		eL/V9JVLRY+0IEoaMTpx7BG1PMg=
+		qfgaBaJnVG6F94Be0F858cQrCi8=
 		</data>
 		<key>Modules/iOS_wis.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/iOS_wis.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		SVgBWPJjsij6Vi6SowEu3XuDWaU=
+		X8xxkr+jf6O+pF1A/XVkYAtb1wc=
 		</data>
 		<key>Modules/iOS_wis.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/iOS_wis.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		eL/V9JVLRY+0IEoaMTpx7BG1PMg=
+		qfgaBaJnVG6F94Be0F858cQrCi8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oVUqnzUSTk31vA0UuqRRu+70JfU=
+			QYx2FyUHJAYDYso69AlvxSusAU4=
 			</data>
 			<key>hash2</key>
 			<data>
-			zCYzS5P676HESCDCLDWZECcXL/NP/Mt5E1ksJ0+LH0E=
+			uVW0D6u+LOBQKYbeNIbVehkeAgCmXUbgrJcoOlSZ8jU=
 			</data>
 		</dict>
 		<key>Headers/iOS_wis.h</key>
@@ -84,11 +84,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eL/V9JVLRY+0IEoaMTpx7BG1PMg=
+			qfgaBaJnVG6F94Be0F858cQrCi8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Na0Y7uxbrdesE/f9Cq7Boh/6bV6yrg1GyE/Q0zOfiQM=
+			0/f1lLKxGNutbbTymFdv84qpH2+w0uK0hc+zf0iPFiQ=
 			</data>
 		</dict>
 		<key>Modules/iOS_wis.swiftmodule/arm64.swiftdoc</key>
@@ -106,11 +106,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SVgBWPJjsij6Vi6SowEu3XuDWaU=
+			X8xxkr+jf6O+pF1A/XVkYAtb1wc=
 			</data>
 			<key>hash2</key>
 			<data>
-			BK2VsZ5+cQ3XVPOpxdBe1nSoKcIFo3MZmFkax/wsm/c=
+			zafvyfMH6LAMR/Ue0iA/x0ZVlX12/IBnQyXQgP8hgiU=
 			</data>
 		</dict>
 		<key>Modules/iOS_wis.swiftmodule/armv7.swiftdoc</key>
@@ -128,11 +128,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eL/V9JVLRY+0IEoaMTpx7BG1PMg=
+			qfgaBaJnVG6F94Be0F858cQrCi8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Na0Y7uxbrdesE/f9Cq7Boh/6bV6yrg1GyE/Q0zOfiQM=
+			0/f1lLKxGNutbbTymFdv84qpH2+w0uK0hc+zf0iPFiQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
